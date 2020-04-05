@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>APP_BY_SHIVAM</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="SHIVAM.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">APP<span class="logo_colour">ASSIGNMENT</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="examples.html">Examples</a></li>
+          <li><a href="page.html">A Page</a></li>
+          <li><a href="another_page.html">Another Page</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>15 PROGRAMMING PARADIGMS</h1>
+        <h2>Imperative paradigm </h2>
+      <p> >Oldest approach.To make programs simpler for a human to read and write, imperative statements can be grouped into sections known as code blocks. In the 1950s, the idea of grouping a program's code into blocks was first implemented in the ALGOL programming language.
+> Closest to the actual mechanical behavior of a computerâ‡’ original imperative languages were
+abstractions of assembly language.
+> A program is a list of instructions that change a memory state until desired end state is achieved.
+>Useful for quite simple programs. Difficult to scale. Soon it led to spaghetti code.
+>Imperative programming languages
+Ada
+ALGOL
+Assembly language
+BASIC
+Blue
+C
+C#
+C++
+COBOL
+D</p>
+      <h2>Structured Paradigm</h2>
+      <p>â€¢Structured programming is most frequently used with deviations that allow for clearer programs in some particular cases, such as when exception handling has to be performed. Go To Statement Considered Harmful, by Edsger Dijkstra in 1968.
+â€¢ Structured program theorem (BÂ¨ohm-Jacopini): sequencing, selection, and iteration are sufficient to
+express any computable function.
+â€¢ Hence, structured: subroutines/functions, block structures, and loops, and tests.
+â€¢ This is paradigm you are likely to be most familiar with.</p>
+      <h2>procedural paradigms</h2>
+      <p>â€¢ Evolution of structured programming.The first major procedural programming languages appeared circa 1957â€“1964, including Fortran, ALGOL, COBOL, PL/I and BASIC.
+â€¢ Divide the code in procedures: routines, subroutines, modules methods, or functions.
+â€¢ Advantages:
+1. Division of work.
+2. Debugging and testing.
+3. Maintenance.
+4. Reusability.</p>
+      <h2>Object oriented programming</h2>
+      <p>â€¢ Predecesors in the late 1950s and 1960s in the LISP and Simula communities.
+â€¢ 1970s: Smalltalk from the Xerox PARC.
+â€¢ Large impact on software industry.
+â€¢ Complemented with other tools such as design patterns or UML.
+â€¢ Partial support in several languages: structures in C (and structs in older versions of Matlab).
+â€¢ Slower adoption in scientific and HPC.
+â€¢ But now even Fortran has OO support.  The most important distinction is that while procedural programming uses procedures to operate on data structures, object-oriented programming bundles the two together, so an "object", which is an instance of a class, operates on its "own" data structure. </p>
+      <h2>EVENT DRIVEN</h2>
+      <p>Event-driven programming is currently the default paradigm in software engineering. As the name suggests, it uses events as the basis for developing the software. These events can be something the users are doing  In computer programming, event-driven programming is a programming paradigm in which the flow of the program is determined by events such as user actions (mouse clicks, key presses), sensor outputs, or messages from other programs or threads. Event-driven programming is the dominant paradigm used in graphical user interfaces and other applications (e.g., JavaScript web applications) that are centered on performing certain actions in response to user input. </p>
+      <h2>DECLARATIVE PARADIGM</h2>
+      <p>declarative programming is a programming paradigmâ€”a style of building the structure and elements of computer programsâ€”that expresses the logic of a computation without describing its control flow.</p>
+      <h2>PARALLEL PARADIGM</h2>
+      <p>(Message	Passing	Interface)
+â€“ A	standard	defined	for	portable	message	passing
+â€“ It	available	in	the	form	of	library	which	includes	interfaces
+for	expressing	the	data	exchange	among	processes
+â€“ A	framework	is	provided	for	spawning	the	independent
+processes	(i.e.,	mpirun)
+â€“ Processes	communica(on	is	via	network
+â€“ It	works	on	either	shared	and	distributed	mem.	 architecture
+â€“ ideal	for	distribu(ng	memory	among	compute	nodes</p>
+      <h2>CONCURRENT PARADIGMS</h2>
+      <p>In a concurrent program, several streams of operations may execute concurrently. Each stream of operations executes as it would in a sequential program except for the fact that streams can communicate and interfere with one another. Each such sequence of instructions is called a thread. For this reason, sequential programs are often called single-threaded programs. When a multi-threaded program executes, the operations in its various threads are interleaved in an unpredictable order subject to the constraints imposed by explicit synchronization operations that may be embedded in the code. The operations for each stream are strictly ordered, but the interleaving of operations from a collection of streams is undetermined and depends on the vagaries of a particular execution of the program. One stream may run very fast while another does not run at all.</p>
+      <h2>FUNCTIONAL PARADIGMS</h2>
+      <p>The main difference between the styles is that functional programming languages remove or at least deemphasize the imperative elements of procedural programming. The feature set of functional languages is therefore designed to support writing programs as much as possible in terms of pure functions:
+        Nearly as old as imperative programming.
+       Created by John McCarthy with LISP (list processing) in the late 1950s.
+       Many important innovations that have been deeply influential.
+       Always admired in academia but with little practical use</p>
+      <h2>LOGIC PARADIGM</h2>
+      <p> the backward reasoning technique, implemented by SLD resolution, used to solve problems in logic programming languages such as Prolog, treats programs as goal-reduction procedures. Thus clauses of the form:
+
+H :- B1, â€¦, Bn.
+have a dual interpretation, both as procedures
+
+to show/solve H, show/solve B1 and â€¦ and Bn
+and as logical implications:
+
+B1 and â€¦ and Bn implies H. Logic programming is a programming paradigm which is largely based on formal logic. Any program written in a logic programming language is a set of sentences in logical form, expressing facts and rules about some problem domain. Major logic programming language families include Prolog, answer set programming (ASP) and Datalog. In all of these languages, rules are written in the form of clauses:</p>
+      <h2>DEPENDENT TYPE PARADIGM</h2>
+      <p>In computer science and logic, a dependent type is a type whose definition depends on a value. ... In functional programming languages like Agda, ATS, Coq, F*, Epigram, and Idris, dependent types may help reduce bugs by enabling the programmer to assign types that further restrain the set of possible implementations.</p>
+      <h2>NETWORK PROGRAMMING PARADIGM</h2>
+      <p>Sharing Multiple logical routers on single platform
+        Resource isolation in CPU, memory, bandwidth, forwarding tables
+        Customizability. Can easily modify routing and forwarding software
+        General purpose CPUs for the control plane. Network processors and FPGAs for data plane.</p>
+  <h2>SYMBOLIC PARADIGMS</h2>
+  <p> In computer programming, symbolic programming is a programming paradigm in which the program can manipulate its own formulas and program components as if they were plain data. Languages that support symbolic programming include homoiconic languages such as Wolfram Language, LISP and Prolog.</p>
+  <h2>AUTOMATA PARADIGMS</h2>
+  <p> Automata-based programming is a programming paradigm in which the program or part of it is thought of as a model of a finite-state machine (FSM) or any other (often more complicated) formal automaton (see automata theory). Sometimes a potentially infinite set of possible states is introduced, and such a set can have a complicated structure, not just an enumeration.</p>
+  <h2>GRAPICAL USER INTERFACE PARADIGMS</h2>
+  <p>The need to program GUIs led to a distinct programming paradigm, called object-oriented programming. An object-oriented programming system (OOPS) consists of objects. An object comprises both data and algorithms. The data describes the state of the object.</p>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+
+    </div>
+  </div>
+</body>
+</html>
