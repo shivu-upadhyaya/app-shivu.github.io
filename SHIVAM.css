@@ -7,8 +7,9 @@ html
 
 body
 { font: normal .80em 'trebuchet ms', arial, sans-serif;
-  background: url(V1.jpg) fixed;
+  background: #F7F7F7 url(V1.jpg) fixed;
   background-size: cover;
+  color: #fff;
   }
 
 p
